@@ -50,7 +50,46 @@ string iStrR()
 	return rtrim(s1);
 }
 
+void save_imu() {
+	string csvName = saveCsv(2);
+	CsvWriter writer(csvName);
 
+	CSerialPort serialComm;
+	serialComm.OpenPort(L"COM3");
+	serialComm.ConfigurePort(921600, 8, FALSE, NOPARITY, ONESTOPBIT);
+	char temp;
+	string s1 = "";
+	int num = 0;
+
+	while(1)
+	{
+		temp = serialComm.ReadChar();
+		s1 += temp;
+		std::string delimiter = ",";
+		if (temp == '\n')
+		{
+			size_t pos = 0;
+			std::string token;
+			vector<string> words = split(s1, delimiter);
+			Record record;
+			//for (const auto& str : words) {
+			//	cout << str << endl;
+			//}
+			record.put(LocalMilli());
+			record.put(words[0]);
+			record.put(words[1]);
+			record.put(words[2]);
+			record.put(words[3]);
+			record.put(words[4]);
+			//it.b = rtrim(words[5]);
+			writer.insertRecord(record);
+			writer.write();
+			//cout << "엔터 발견, 그만!"<<endl;
+
+		}
+	}
+	writer.close();
+}
 
 void itoL()
 {

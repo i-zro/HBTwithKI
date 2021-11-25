@@ -5,6 +5,8 @@
 #include<iostream>
 #include<cstring>
 #include "kPrinter.h"
+#include "KITOOLs.h"
+#include <list>
 
 using namespace std;
 
@@ -59,7 +61,184 @@ void print_body_information(k4abt_body_t body)
     }
 }
 
+int kPrint() {
+    try
+    {
+        // * common code
+        // kinectDEF : kinect color 카메라 와 depth 카메라, tracker까지 설정, device open(kinect 여러대나 몇 번째냐도 달라질 수 있음) 설정
+#pragma region kinectDEF
+        k4a_device_configuration_t device_config = K4A_DEVICE_CONFIG_INIT_DISABLE_ALL;
+        device_config.depth_mode = K4A_DEPTH_MODE_NFOV_UNBINNED;
+        k4a::device device = k4a::device::open(0);
+        device.start_cameras(&device_config);
+        k4a::calibration sensor_calibration = device.get_calibration(device_config.depth_mode, device_config.color_resolution);
+        k4abt::tracker tracker = k4abt::tracker::create(sensor_calibration);
+#pragma endregion
 
+        int frame_count = 0;
+        do
+        {
+            k4a::capture sensor_capture;
+            if (device.get_capture(&sensor_capture, std::chrono::milliseconds(K4A_WAIT_INFINITE)))
+            {
+                frame_count++;
 
+                // frame 처리 시작
+                std::cout << "Start" << frame_count << std::endl;
 
+                if (!tracker.enqueue_capture(sensor_capture))
+                {
+                    // It should never hit timeout when K4A_WAIT_INFINITE is set.
+                    std::cout << "Error! Tracker timeout!" << std::endl;
+                    break;
+                }
 
+                k4abt::frame body_frame = tracker.pop_result();
+                if (body_frame != nullptr)
+                {
+                    uint32_t num_bodies = body_frame.get_num_bodies();
+                    // 몇 명 인지
+                    std::cout << num_bodies << " Bodies " << std::endl;
+                    for (uint32_t i = 0; i < num_bodies; i++)
+                    {
+                        k4abt_body_t body = body_frame.get_body(i);
+                        print_body_information(body);
+                    }
+                }
+                // * common code
+                // Error 처리
+#pragma region commonError
+                else
+                {
+                    //  It should never hit timeout when K4A_WAIT_INFINITE is set.
+                    std::cout << "Error! Pop body frame result time out!" << std::endl;
+                    break;
+                }
+            }
+            else
+            {
+                // It should never hit time out when K4A_WAIT_INFINITE is set.
+                std::cout << "Error! Get depth frame time out!" << std::endl;
+                break;
+            }
+        } while (frame_count < 100);
+        std::cout << "Finished body tracking processing!" << std::endl;
+    }
+    catch (const std::exception& e)
+    {
+        // try-catch Error
+        std::cerr << "Failed with exception:" << std::endl
+            << "    " << e.what() << std::endl;
+        return 1;
+    }
+#pragma endregion
+
+    return 0;
+
+}
+
+void kPrintF() {
+    kPrint();
+}
+
+void ktoL() {
+    list<kLST> klist;
+    try
+    {
+        // * common code
+        // kinectDEF : kinect color 카메라 와 depth 카메라, tracker까지 설정, device open(kinect 여러대나 몇 번째냐도 달라질 수 있음) 설정
+#pragma region kinectDEF
+        k4a_device_configuration_t device_config = K4A_DEVICE_CONFIG_INIT_DISABLE_ALL;
+        device_config.depth_mode = K4A_DEPTH_MODE_NFOV_UNBINNED;
+        k4a::device device = k4a::device::open(0);
+        device.start_cameras(&device_config);
+        k4a::calibration sensor_calibration = device.get_calibration(device_config.depth_mode, device_config.color_resolution);
+        k4abt::tracker tracker = k4abt::tracker::create(sensor_calibration);
+#pragma endregion
+
+        int frame_count = 0;
+        do
+        {
+            k4a::capture sensor_capture;
+            if (device.get_capture(&sensor_capture, std::chrono::milliseconds(K4A_WAIT_INFINITE)))
+            {
+                frame_count++;
+
+                // frame 처리 시작
+                std::cout << "Start" << frame_count << std::endl;
+
+                if (!tracker.enqueue_capture(sensor_capture))
+                {
+                    // It should never hit timeout when K4A_WAIT_INFINITE is set.
+                    std::cout << "Error! Tracker timeout!" << std::endl;
+                    break;
+                }
+
+                k4abt::frame body_frame = tracker.pop_result();
+                int time_s;
+                if (body_frame != nullptr)
+                {
+                    
+                    uint32_t num_bodies = body_frame.get_num_bodies();
+                    // 몇 명 인지
+                    std::cout << num_bodies << " Bodies " << std::endl;
+                    for (uint32_t i = 0; i < num_bodies; i++)
+                    {
+                        time_s = LocalMilli();
+                        kLST kt; //임시 구조체 변수
+                        k4abt_body_t body = body_frame.get_body(i);
+                        for (int i = 0; i < (int)K4ABT_JOINT_COUNT; i++)
+                        {
+                            k4a_float3_t position = body.skeleton.joints[i].position;
+                            k4a_quaternion_t orientation = body.skeleton.joints[i].orientation;
+                            kt.id = frame_count;
+                            kt.time_s = time_s;
+                            kt.xp = to_string(position.v[0]);
+                            kt.yp = to_string(position.v[1]);
+                            kt.zp = to_string(position.v[2]);
+                            kt.w = to_string(orientation.v[0]);
+                            kt.x = to_string(orientation.v[1]);
+                            kt.y = to_string(orientation.v[2]);
+                            kt.z = to_string(orientation.v[3]);
+                        }
+                        klist.push_back(kt);
+                    }
+                }
+                // * common code
+                // Error 처리
+#pragma region commonError
+                else
+                {
+                    //  It should never hit timeout when K4A_WAIT_INFINITE is set.
+                    std::cout << "Error! Pop body frame result time out!" << std::endl;
+                    break;
+                }
+            }
+            else
+            {
+                // It should never hit time out when K4A_WAIT_INFINITE is set.
+                std::cout << "Error! Get depth frame time out!" << std::endl;
+                break;
+            }
+        } while (frame_count < 100);
+        std::cout << "Finished body tracking processing!" << std::endl;
+    }
+    catch (const std::exception& e)
+    {
+        // try-catch Error
+        std::cerr << "Failed with exception:" << std::endl
+            << "    " << e.what() << std::endl;
+    }
+#pragma endregion
+    list<kLST>::iterator iter = klist.begin();
+    while (iter != klist.end())//반복자가 리스트의 끝을 만날때까지 계속 반복한다.
+
+    {
+        kLST a = *iter;//반복자 변수 주소값을 넘긴다.
+        cout << a.time_s << endl;
+        cout << a.x + "\n" << a.y + "\n" << a.z + "\n" << a.w + "\n" << endl;//화면에 출력
+        iter++;//반복자 주소값 쉬프트.
+
+    }
+
+}
