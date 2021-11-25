@@ -2,10 +2,11 @@
 
 using namespace std;
 
-string csvName;
-const char* kinDir = "KinData";
+//const char* kinDir = "KinData";
+using std::string;
+string csvname;
 
-void saveCsv(int which) {
+std::string saveCsv(int which) {
     if(which==1){
     // 파일 이름 생성용
     time_t timer;
@@ -21,8 +22,8 @@ void saveCsv(int which) {
         to_string(t.tm_min) + "분" +
         to_string(t.tm_sec) + "초"; //현재 시간 string 변수
 
-    csvName = "KinData/" + whatTime + ".csv";
-    cout << "file name : " + csvName << endl;
+    csvname = "KinData/" + whatTime + ".csv";
+    cout << "file name : " + csvname << endl;
     //파일 이름 정하기만 하는 함수
     }
     else if (which == 2) {
@@ -40,10 +41,11 @@ void saveCsv(int which) {
             to_string(t.tm_min) + "분" +
             to_string(t.tm_sec) + "초"; //현재 시간 string 변수
 
-        csvName = "ImuData/" + whatTime + ".csv";
-        cout << "file name : " + csvName << endl;
+        csvname = "ImuData/" + whatTime + ".csv";
+        cout << "file name : " + csvname << endl;
         //파일 이름 정하기만 하는 함수
     }
+    return csvname;
 }
 
 int LocalMilli() {
