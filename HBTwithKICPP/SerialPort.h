@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SERIAL_CONTROLLER
+#define SERIAL_CONTROLLER
+#define MAX_BUF 1024
 
 #include <Windows.h>
 // https://kocoafab.cc/tutorial/view/255
@@ -7,8 +9,7 @@
 
 #define BUFFER_SIZE 128
 
-class CSerialPort
-{
+class CSerialPort{
 public:
 	CSerialPort(void);
 	virtual ~CSerialPort(void);
@@ -28,6 +29,7 @@ public:
 	void ClosePort();
 	bool ReadByte(BYTE& resp);
 	bool ReadByte(BYTE*& resp, UINT size);
+	char ReadChar();
 	bool WriteByte(char bybyte);
 	bool OpenPort(CString portname);
 	bool SetCommunicationTimeouts(DWORD ReadIntervalTimeout,
@@ -36,3 +38,5 @@ public:
 	bool ConfigurePort(DWORD BaudRate, BYTE ByteSize, DWORD fParity,
 		BYTE  Parity, BYTE StopBits);
 };
+
+#endif

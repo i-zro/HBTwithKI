@@ -1,7 +1,6 @@
-// https://kocoafab.cc/tutorial/view/255
-
 #include "serialport.h"
 #include <iostream>
+
 
 using namespace std;
 
@@ -78,7 +77,7 @@ bool CSerialPort::SetCommunicationTimeouts(DWORD ReadIntervalTimeout,
 		//통신에서 데이터를 읽을 때 Timeout을 사용할 것인지에 대한 여부
 	m_CommTimeouts.ReadTotalTimeoutConstant = ReadTotalTimeoutConstant;
 	m_CommTimeouts.ReadTotalTimeoutMultiplier = ReadTotalTimeoutMultiplier;
-	//통신에서 데이터를 전송할 때 Timeout을 사용할 것인지에 대한 여부
+		//통신에서 데이터를 전송할 때 Timeout을 사용할 것인지에 대한 여부
 	m_CommTimeouts.WriteTotalTimeoutConstant = WriteTotalTimeoutConstant;
 	m_CommTimeouts.WriteTotalTimeoutMultiplier = WriteTotalTimeoutMultiplier;
 
@@ -126,6 +125,16 @@ bool CSerialPort::ReadByte(BYTE& resp)
 	return false; //실패했을 경우 false 반환
 }
 
+// 바로 char 반환
+char CSerialPort::ReadChar()
+{
+	DWORD dwBytesTransferred = 0;
+	char c;
+	if (!ReadFile(m_hComm, &c, 1, &dwBytesTransferred, 0)) exit(1);
+
+	return dwBytesTransferred ? c : 0;
+}
+
 bool CSerialPort::ReadByte(BYTE*& resp, UINT size)
 {
 	DWORD dwBytesTransferred = 0;
@@ -138,6 +147,8 @@ bool CSerialPort::ReadByte(BYTE*& resp, UINT size)
 
 	return false;
 }
+
+
 
 void CSerialPort::ClosePort()
 {

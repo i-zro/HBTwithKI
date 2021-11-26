@@ -1,58 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClCompile Include="kCsvWriter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="KITOOLs.cpp" />
     <ClCompile Include="kPrinter.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="kCsvWriter.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="EulerAngles.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="iParse.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Kinect</Filter>
     </ClCompile>
     <ClCompile Include="SerialPort.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>IMU</Filter>
+    </ClCompile>
+    <ClCompile Include="iParse.cpp">
+      <Filter>IMU</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="dnn_model_2_0.onnx" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="CsvWriter.hpp" />
+    <ClInclude Include="kCsvWriter.h" />
+    <ClInclude Include="KITOOLs.h" />
+    <ClInclude Include="EBMotion.h" />
     <ClInclude Include="kPrinter.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="CsvWriter.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="kCsvWriter.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Kinect</Filter>
     </ClInclude>
     <ClInclude Include="SerialPort.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>IMU</Filter>
     </ClInclude>
     <ClInclude Include="iPrinter.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>IMU</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dnn_model_2_0.onnx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Kinect">
+      <UniqueIdentifier>{a46285fe-572e-48b4-9b8a-54474a9e54c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMU">
+      <UniqueIdentifier>{9fcb857d-ed68-4ea5-9e67-c17a5dbb04be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{89338d3d-f9c1-4c1b-a835-9107960a6bcd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
