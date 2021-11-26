@@ -117,7 +117,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\opencv\build\include;C:\glut-3.7.6-bin;$(QTDIR)\include;$(Qt_LIBS_);E:\MDCODE\HBTwithKI\HBTwithKICPP</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\opencv\build\include;C:\glut-3.7.6-bin;$(QTDIR)\include;$(Qt_LIBS_);E:\MDCODE\HBTwithKI\HBTwithKICPP;E:\MDCODE\HBTwithKI\sample_helper_includes;E:\MDCODE\HBTwithKI\sample_helper_libs\window_controller_3d</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IMUmkv.cpp" />
     <ClCompile Include="iParse.cpp" />
     <ClCompile Include="kCsvWriter.cpp" />
     <ClCompile Include="KITOOLs.cpp" />
@@ -163,6 +164,7 @@
   <ItemGroup>
     <ClInclude Include="CsvWriter.hpp" />
     <ClInclude Include="EBMotion.h" />
+    <ClInclude Include="IMUmkv.h" />
     <ClInclude Include="iPrinter.h" />
     <ClInclude Include="kCsvWriter.h" />
     <ClInclude Include="KITOOLs.h" />
@@ -177,6 +179,7 @@
     <Import Project="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.1\build\native\Microsoft.Azure.Kinect.BodyTracking.targets" Condition="Exists('packages\Microsoft.Azure.Kinect.BodyTracking.1.0.1\build\native\Microsoft.Azure.Kinect.BodyTracking.targets')" />
     <Import Project="packages\glm.0.9.9.800\build\native\glm.targets" Condition="Exists('packages\glm.0.9.9.800\build\native\glm.targets')" />
     <Import Project="packages\FFmpeg.Nightly.20200831.1.0\build\native\FFmpeg.Nightly.targets" Condition="Exists('packages\FFmpeg.Nightly.20200831.1.0\build\native\FFmpeg.Nightly.targets')" />
+    <Import Project="packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets" Condition="Exists('packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -188,5 +191,6 @@
     <Error Condition="!Exists('packages\Microsoft.Azure.Kinect.BodyTracking.1.0.1\build\native\Microsoft.Azure.Kinect.BodyTracking.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Azure.Kinect.BodyTracking.1.0.1\build\native\Microsoft.Azure.Kinect.BodyTracking.targets'))" />
     <Error Condition="!Exists('packages\glm.0.9.9.800\build\native\glm.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\glm.0.9.9.800\build\native\glm.targets'))" />
     <Error Condition="!Exists('packages\FFmpeg.Nightly.20200831.1.0\build\native\FFmpeg.Nightly.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\FFmpeg.Nightly.20200831.1.0\build\native\FFmpeg.Nightly.targets'))" />
+    <Error Condition="!Exists('packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nlohmann.json.3.10.4\build\native\nlohmann.json.targets'))" />
   </Target>
 </Project>

@@ -13,6 +13,9 @@
     <ClCompile Include="iParse.cpp">
       <Filter>IMU</Filter>
     </ClCompile>
+    <ClCompile Include="IMUmkv.cpp">
+      <Filter>IMUmkv</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CsvWriter.hpp" />
@@ -28,6 +31,9 @@
     <ClInclude Include="iPrinter.h">
       <Filter>IMU</Filter>
     </ClInclude>
+    <ClInclude Include="IMUmkv.h">
+      <Filter>IMUmkv</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="dnn_model_2_0.onnx" />
@@ -42,6 +48,9 @@
     </Filter>
     <Filter Include="Thread">
       <UniqueIdentifier>{89338d3d-f9c1-4c1b-a835-9107960a6bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMUmkv">
+      <UniqueIdentifier>{4bd2b22f-a144-42b5-911d-90d878712234}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

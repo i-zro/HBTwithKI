@@ -6,10 +6,17 @@
 #include <k4a/k4a.hpp>
 #include <k4abt.hpp>
 #include <iostream>
-#include <sstream>   
+#include <sstream> 
+#include <fstream>
 #include <cstring>
 #include <thread>
 #include <mutex>
+#include <nlohmann/json.hpp>
+#include <iomanip>
+
+#include <BodyTrackingHelpers.h>
+#include <Utilities.h>
+
 #include "kPrinter.h"
 #include "iPrinter.h"
 #include "kCsvWriter.h"
@@ -34,6 +41,7 @@ int main() {
         "(7) : IMU 출력 딱 한 줄만 string 반환\n " <<
         "(10) : Thread Test\n " <<
         "(11) : IMU 저장\n " <<
+        "(12) : Kinect, IMU 동시 저장\n " <<
         "> ";
     cin >> num;
 
