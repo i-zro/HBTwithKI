@@ -13,6 +13,7 @@
 #include <mutex>
 #include <nlohmann/json.hpp>
 #include <iomanip>
+#include <QtSerialPort/QSerialPort>
 
 #include <BodyTrackingHelpers.h>
 #include <Utilities.h>
@@ -22,6 +23,7 @@
 #include "kCsvWriter.h"
 #include "CsvWriter.hpp"
 #include "KITOOLs.h"
+//#include <IMUmkv.h>
 //#include "ForSync.h";
 
 using namespace std;
@@ -33,7 +35,7 @@ int main() {
     cout << "* * * * * * * * * * * * * * * * * * \n" <<
         "Enter an integer from 1 to 10 : \n" <<
         "(1) : K - Print your body for 100 frames (pos + quaternion) \n" <<
-        "(2) : K - Save them as a csv file with 32 columns (pos + quaternion) \n " <<
+        "(2) : K - Save them as a csv file with 7 columns * 32 rows (pos + quaternion) \n " <<
         "(3) : K & I - Print your body for 100 frames with timestamp (pos + quaternion) \n " <<
         "(4) : IMU 출력 1 \n " <<
         "(5) : IMU 출력 2 (char return) \n " <<
@@ -158,10 +160,6 @@ int main() {
     save_imu();
     }
     else if (num == 12) {
-    thread t1(kSaveT);
-    thread t2(save_imu);
-    t1.join();
-    t2.join();
     }
     else {
         cout << "Not a number of ranges" << endl;
