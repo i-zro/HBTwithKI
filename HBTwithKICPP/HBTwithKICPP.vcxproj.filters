@@ -13,9 +13,6 @@
     <ClCompile Include="iParse.cpp">
       <Filter>IMU</Filter>
     </ClCompile>
-    <ClCompile Include="IMUmkv.cpp">
-      <Filter>IMUmkv</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CsvWriter.hpp" />
@@ -31,13 +28,3709 @@
     <ClInclude Include="iPrinter.h">
       <Filter>IMU</Filter>
     </ClInclude>
-    <ClInclude Include="IMUmkv.h">
-      <Filter>IMUmkv</Filter>
+    <ClInclude Include="QtWidgets\qwizard.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qwidgetaction.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qwhatsthis.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qundoview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qundostack.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qundogroup.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtwidgetsversion.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtwidgetsglobal.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtwidgets-config.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtreewidgetitemiterator.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtreewidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtreeview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtooltip.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtoolbutton.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtoolbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtoolbar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtextedit.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtextbrowser.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtabwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtablewidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtableview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qtabbar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qsystemtrayicon.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstyleplugin.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstylepainter.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstyleoption.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstylefactory.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstyleditemdelegate.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstyle.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstatusbar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstackedwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qstackedlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qsplitter.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qsplashscreen.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qspinbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qslider.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qsizepolicy.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qsizegrip.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qshortcut.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qscrollerproperties.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qscroller.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qscrollbar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qscrollarea.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qrubberband.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qradiobutton.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qpushbutton.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qproxystyle.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qprogressdialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qprogressbar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qplaintextedit.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qopenglwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmouseeventtransition.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmessagebox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmenubar.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmenu.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmdisubwindow.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmdiarea.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmainwindow.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmacnativewidget_mac.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qmaccocoaviewcontainer_mac.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlistwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlistview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlineedit.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlcdnumber.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlayoutitem.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qlabel.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qkeysequenceedit.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qkeyeventtransition.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qitemeditorfactory.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qitemdelegate.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qinputdialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qheaderview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgroupbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgridlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicswidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicstransform.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicssceneevent.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsscene.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsproxywidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicslinearlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicslayoutitem.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicslayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsitemanimation.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsitem.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsgridlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicseffect.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgraphicsanchorlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgesturerecognizer.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qgesture.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qframe.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qformlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfontdialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfontcombobox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfocusframe.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfilesystemmodel.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfileiconprovider.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qfiledialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qerrormessage.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdrawutil.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdockwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdirmodel.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdialogbuttonbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdial.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdesktopwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdatetimeedit.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qdatawidgetmapper.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcompleter.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcommonstyle.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcommandlinkbutton.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcombobox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcolumnview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcolormap.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcolordialog.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcheckbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qcalendarwidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qbuttongroup.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qboxlayout.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qapplication.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qactiongroup.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qaction.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qaccessiblewidget.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractspinbox.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractslider.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractscrollarea.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractitemview.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractitemdelegate.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWidgets\qabstractbutton.h">
+      <Filter>QtWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qwindowdefs_win.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qwindowdefs.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qwindow.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qvector4d.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qvector3d.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qvector2d.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qvalidator.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtransform.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtouchdevice.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtguiversion.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtguiglobal.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtgui-config.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtexttable.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextoption.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextobject.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextlist.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextlayout.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextformat.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextdocumentwriter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextdocumentfragment.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextdocument.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qtextcursor.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qsyntaxhighlighter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qsurfaceformat.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qsurface.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qstylehints.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qstatictext.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qstandarditemmodel.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qsessionmanager.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qscreen.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qrgba64.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qrgb.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qregion.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qrawfont.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qrasterwindow.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qquaternion.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpolygon.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpixmapcache.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpixmap.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpixelformat.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpictureformatplugin.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpicture.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpen.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpdfwriter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpalette.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpainterpath.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpainter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpaintengine.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpaintdevicewindow.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpaintdevice.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpagesize.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpagelayout.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qpagedpaintdevice.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglwindow.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglvertexarrayobject.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglversionfunctions.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengltimerquery.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengltextureblitter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengltexture.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglshaderprogram.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglpixeltransferoptions.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglpaintdevice.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_es2.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_5_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_5_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_4_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_4_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_3_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_3_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_2_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_2_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_1_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_1_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_0_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_4_0_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_3_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_3_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_2_core.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_2_compatibility.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_1.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_3_0.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_2_1.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_2_0.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_5.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_4.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_3.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_2.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_1.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions_1_0.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglfunctions.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglframebufferobject.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglextrafunctions.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglext.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengles2ext.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengldebug.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglcontext.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopenglbuffer.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qopengl.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qoffscreensurface.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qmovie.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qmatrix4x4.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qmatrix.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qkeysequence.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qinputmethod.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qimagewriter.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qimagereader.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qimageiohandler.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qimage.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qiconengineplugin.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qiconengine.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qicon.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qguiapplication.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qglyphrun.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qgenericpluginfactory.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qgenericplugin.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qgenericmatrix.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qfontmetrics.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qfontinfo.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qfontdatabase.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qfont.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qevent.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qdrag.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qdesktopservices.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qcursor.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qcolor.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qclipboard.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qbrush.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qbitmap.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qbackingstore.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qaccessibleplugin.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qaccessibleobject.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qaccessiblebridge.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qaccessible.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtGui\qabstracttextdocumentlayout.h">
+      <Filter>QtGui</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qxmlstream.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qwineventnotifier.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qwaitcondition.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qversiontagging.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qversionnumber.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qvector.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qvarlengtharray.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qvariantanimation.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qvariant.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\quuid.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qurlquery.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qurl.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qt_windows.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtypetraits.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtypeinfo.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtranslator.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtimezone.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtimer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtimeline.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qthreadstorage.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qthreadpool.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qthread.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtextstream.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtextcodec.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtextboundaryfinder.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtemporaryfile.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtemporarydir.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtcoreversion.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qtcore-config.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsystemsemaphore.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsystemdetection.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsysinfo.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstringmatcher.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstringlistmodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstringlist.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstringbuilder.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstring.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstorageinfo.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstatemachine.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstate.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstandardpaths.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qstack.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsortfilterproxymodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsocketnotifier.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsize.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsignaltransition.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsignalmapper.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsharedpointer_impl.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsharedpointer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsharedmemory.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qshareddata.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsettings.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qset.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsequentialanimationgroup.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsemaphore.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qscopedvaluerollback.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qscopedpointer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qsavefile.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qrunnable.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qresultstore.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qresource.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qregularexpression.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qregexp.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qrefcount.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qrect.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qreadwritelock.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qqueue.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpropertyanimation.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qprocessordetection.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qprocess.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpointer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpoint.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpluginloader.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qplugin.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpauseanimation.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qparallelanimationgroup.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qpair.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qoperatingsystemversion.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qobject_impl.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qobjectdefs_impl.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qobjectdefs.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qobjectcleanuphandler.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qobject.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qnumeric.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qnamespace.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmutex.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmimetype.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmimedatabase.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmimedata.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmetatype.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmetaobject.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmessageauthenticationcode.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmath.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmargins.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qmap.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qloggingcategory.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlogging.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlockfile.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlocale.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlist.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlinkedlist.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qline.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlibraryinfo.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qlibrary.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qjsonvalue.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qjsonobject.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qjsondocument.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qjsonarray.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qiterator.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qitemselectionmodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qisenum.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qiodevice.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qidentityproxymodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qhistorystate.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qhashfunctions.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qhash.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qglobalstatic.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qglobal.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qgenericatomic.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfuturewatcher.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfuturesynchronizer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfutureinterface.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfuture.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfunctions_winrt.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfunctions_vxworks.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfunctions_nacl.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfloat16.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qflags.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfinalstate.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfilesystemwatcher.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfileselector.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfileinfo.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfiledevice.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfile.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qfactoryinterface.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qexception.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qeventtransition.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qeventloop.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qendian.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qelapsedtimer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qeasingcurve.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdiriterator.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdir.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdebug.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdeadlinetimer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdatetime.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qdatastream.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcryptographichash.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcoreevent.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcoreapplication.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcontiguouscache.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcontainerfwd.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qconfig.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qconfig-bootstrapped.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcompilerdetection.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcommandlineparser.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcommandlineoption.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcollator.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qchar.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qcache.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbytearraymatcher.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbytearraylist.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbytearray.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbuffer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbitarray.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbasictimer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qbasicatomic.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qatomic_msvc.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qatomic_cxx11.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qatomic_bootstrap.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qatomic.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qarraydatapointer.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qarraydataops.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qarraydata.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qanimationgroup.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qalgorithms.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstracttransition.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstractstate.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstractproxymodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstractnativeeventfilter.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstractitemmodel.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstracteventdispatcher.h">
+      <Filter>QtCore</Filter>
+    </ClInclude>
+    <ClInclude Include="QtCore\qabstractanimation.h">
+      <Filter>QtCore</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="dnn_model_2_0.onnx" />
     <None Include="packages.config" />
+    <None Include="QtWidgets\QWizardPage">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWizard">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWidgetItemV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWidgetItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWidgetData">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWidgetAction">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QWhatsThis">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QVBoxLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QUndoView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QUndoStack">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QUndoGroup">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QUndoCommand">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QtWidgetsVersion">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QtWidgetsDepends">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QtWidgets">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTreeWidgetItemIterator">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTreeWidgetItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTreeWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTreeView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QToolTip">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QToolButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QToolBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QToolBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTimeEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTileRules">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTextEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTextBrowser">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTapGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTapAndHoldGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTabWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTableWidgetSelectionRange">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTableWidgetItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTableWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTableView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QTabBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSystemTrayIcon">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSwipeGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStylePlugin">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStylePainter">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionViewItemV4">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionViewItemV3">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionViewItemV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionViewItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionToolButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionToolBoxV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionToolBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionToolBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTitleBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabWidgetFrameV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabWidgetFrame">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabV3">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabBarBaseV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTabBarBase">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionTab">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionSpinBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionSlider">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionSizeGrip">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionRubberBand">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionProgressBarV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionProgressBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionMenuItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionHeader">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionGroupBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionGraphicsItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionFrameV3">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionFrameV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionFrame">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionFocusRect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionDockWidgetV2">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionDockWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionComplex">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionComboBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOptionButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleOption">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleHintReturnVariant">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleHintReturnMask">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleHintReturn">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyleFactory">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyledItemDelegate">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStyle">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStatusBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStandardItemEditorCreator">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStackedWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QStackedLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSplitterHandle">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSplitter">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSplashScreen">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSpinBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSpacerItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSlider">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSizePolicy">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QSizeGrip">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QShortcut">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QScrollerProperties">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QScroller">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QScrollBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QScrollArea">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QRubberBand">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QRadioButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QPushButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QProxyStyle">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QProgressDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QProgressBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QPlainTextEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QPlainTextDocumentLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QPinchGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QPanGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QOpenGLWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMouseEventTransition">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMessageBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMenuBar">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMenu">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMdiSubWindow">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMdiArea">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMainWindow">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMacNativeWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QMacCocoaViewContainer">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QListWidgetItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QListWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QListView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QLineEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QLCDNumber">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QLayoutItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QLabel">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QKeySequenceEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QKeyEventTransition">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QItemEditorFactory">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QItemEditorCreatorBase">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QItemEditorCreator">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QItemDelegate">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QInputDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QHeaderView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QHBoxLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGroupBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGridLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsTransform">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsTextItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSimpleTextItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneWheelEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneResizeEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneMoveEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneMouseEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneHoverEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneHelpEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneDragDropEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsSceneContextMenuEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsScene">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsScale">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsRotation">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsRectItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsProxyWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsPolygonItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsPixmapItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsPathItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsOpacityEffect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsObject">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsLineItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsLinearLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsLayoutItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsItemGroup">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsItemAnimation">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsGridLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsEllipseItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsEffect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsDropShadowEffect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsColorizeEffect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsBlurEffect">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsAnchorLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGraphicsAnchor">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGestureRecognizer">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGestureEvent">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QGesture">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFrame">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFormLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFontDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFontComboBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFocusFrame">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFileSystemModel">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFileIconProvider">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QFileDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QErrorMessage">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDoubleSpinBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDockWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDirModel">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDialogButtonBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDial">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDesktopWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDateTimeEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDateEdit">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QDataWidgetMapper">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QCompleter">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QCommonStyle">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QCommandLinkButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QComboBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QColumnView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QColormap">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QColorDialog">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QCheckBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QCalendarWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QButtonGroup">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QBoxLayout">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QApplication">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QActionGroup">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAction">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAccessibleWidget">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractSpinBox">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractSlider">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractScrollArea">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractItemView">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractItemDelegate">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractGraphicsShapeItem">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtWidgets\QAbstractButton">
+      <Filter>QtWidgets</Filter>
+    </None>
+    <None Include="QtGui\QWindowStateChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWindowList">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWindow">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWidgetSet">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWidgetMapper">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWidgetList">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWheelEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QWhatsThisClickedEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QVector4D">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QVector3D">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QVector2D">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QValidator">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTransform">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTouchEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTouchDevice">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QToolBarChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QtGuiVersion">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QtGuiDepends">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QtGui">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextTableFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextTableCellFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextTableCell">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextTable">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextOption">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextObjectInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextObject">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextListFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextList">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextLine">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextLength">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextLayout">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextItem">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextInlineObject">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextImageFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextFrameLayoutData">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextFrameFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextFrame">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextFragment">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextDocumentWriter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextDocumentFragment">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextDocument">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextCursor">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextCharFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextBlockUserData">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextBlockGroup">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextBlockFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTextBlock">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QtEvents">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QTabletEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QSyntaxHighlighter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QSurfaceFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QSurface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QStyleHints">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QStatusTipEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QStaticText">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QStandardItemModel">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QStandardItem">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QShowEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QShortcutEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QSessionManager">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QScrollPrepareEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QScrollEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QScreenOrientationChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QScreen">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRgba64">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRgb">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QResizeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRegularExpressionValidator">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRegion">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRegExpValidator">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRawFont">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRasterWindow">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QRadialGradient">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QQuaternion">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPolygonF">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPolygon">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPointingDeviceUniqueId">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPlatformSurfaceEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPixmapCache">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPixmap">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPixelFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPictureIO">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPictureFormatPlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPicture">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPen">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPdfWriter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPalette">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPaintEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPainterPathStroker">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPainterPath">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPainter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPaintEngineState">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPaintEngine">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPaintDeviceWindow">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPaintDevice">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPageSize">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPageLayout">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QPagedPaintDevice">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLWindow">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLVertexArrayObject">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLVersionProfile">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLVersionFunctions">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLTimerQuery">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLTimeMonitor">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLTextureBlitter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLTexture">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLShaderProgram">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLShader">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLPixelTransferOptions">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLPaintDevice">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_ES2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_5_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_5_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_4_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_4_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_3_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_3_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_2_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_2_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_1_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_1_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_0_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_4_0_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_3_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_3_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_2_Core">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_2_Compatibility">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_1">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_3_0">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_2_1">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_2_0">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_5">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_4">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_3">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_1">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions_1_0">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctionsPrivate">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFunctions">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFramebufferObjectFormat">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLFramebufferObject">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLExtraFunctionsPrivate">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLExtraFunctions">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLDebugMessage">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLDebugLogger">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLContextGroup">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLContext">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOpenGLBuffer">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QOffscreenSurface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QNativeGestureEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMovie">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMoveEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMouseEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix4x4">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix4x3">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix4x2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix3x4">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix3x3">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix3x2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix2x4">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix2x3">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix2x2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QMatrix">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QList">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QLinearGradient">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QKeySequence">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QKeyEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIntValidator">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QInputMethodQueryEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QInputMethodEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QInputMethod">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QInputEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageWriter">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageTextKeyLang">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageReader">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageIOPlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageIOHandler">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImageCleanupFunction">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QImage">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIconEngineV2">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIconEnginePlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIconEngine">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIconDragEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QIcon">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QHoverEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QHideEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QHelpEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGuiApplication">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGradientStops">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGradientStop">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGradient">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGlyphRun">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGenericPluginFactory">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGenericPlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QGenericMatrix">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFontMetricsF">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFontMetrics">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFontInfo">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFontDatabase">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFont">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFocusEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QFileOpenEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QExposeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QEnterEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDropEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDragMoveEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDragLeaveEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDragEnterEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDrag">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDoubleValidator">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QDesktopServices">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QCursor">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QContextMenuEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QConicalGradient">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QColor">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QCloseEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QClipboard">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QBrushData">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QBrush">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QBitmap">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QBackingStore">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QApplicationStateChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QActionEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleValueInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleValueChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextUpdateEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextSelectionEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextRemoveEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextInsertEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTextCursorEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTableModelChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTableInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleTableCellInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleStateChangeEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessiblePlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleObject">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleImageInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleEvent">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleEditableTextInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleBridgePlugin">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleBridge">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleApplication">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessibleActionInterface">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAccessible">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAbstractUndoItem">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtGui\QAbstractTextDocumentLayout">
+      <Filter>QtGui</Filter>
+    </None>
+    <None Include="QtCore\Q_STARTUPINFO">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\Q_SECURITY_ATTRIBUTES">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\Q_PID">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamWriter">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamStringRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamReader">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamNotationDeclarations">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamNotationDeclaration">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamNamespaceDeclarations">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamNamespaceDeclaration">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamEntityResolver">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamEntityDeclarations">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamEntityDeclaration">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamAttributes">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QXmlStreamAttribute">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QWriteLocker">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QWinEventNotifier">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QWeakPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QWaitCondition">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVersionNumber">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVectorIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVector">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVarLengthArray">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariantMap">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariantList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariantHash">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariantComparisonHelper">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariantAnimation">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QVariant">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QUuid">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QUrlTwoFlags">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QUrlQuery">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QUrl">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QUnhandledException">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTypeInfoQuery">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTypeInfoMerger">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTypeInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTranslator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtPluginMetaDataFunction">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtPluginInstanceFunction">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtPlugin">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtNumeric">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtMsgHandler">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtMessageHandler">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtMath">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTimeZone">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTimerEvent">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTimer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTimeLine">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTime">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QThreadStorageData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QThreadStorage">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QThreadPool">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QThread">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtGlobal">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextStreamManipulator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextStreamFunction">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextStream">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextEncoder">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextDecoder">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextCodec">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTextBoundaryFinder">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtEndian">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTemporaryFile">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QTemporaryDir">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtDebug">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtCoreVersion">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtCoreDepends">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtCore">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtContainerFwd">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtConfig">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtCleanUpFunction">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QtAlgorithms">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\Qt">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSystemSemaphore">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSysInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringMatcher">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringListModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringDataPtr">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStringBuilder">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QString">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStorageInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticStringData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticPlugin">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticByteArrayMatcherBase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticByteArrayData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticAssertFailure">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStaticArrayData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStateMachine">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QState">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStandardPaths">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QStack">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSortFilterProxyModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSocketNotifier">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSizeF">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSize">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSignalTransition">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSignalMapper">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSignalBlocker">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSharedPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSharedMemory">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSharedDataPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSharedData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSettings">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSetIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSet">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSequentialIterable">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSequentialAnimationGroup">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSemaphore">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedValueRollback">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointerPodDeleter">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointerObjectDeleteLater">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointerDeleter">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointerDeleteLater">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointerArrayDeleter">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QScopedArrayPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QSaveFile">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRunnable">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QReturnArgument">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QResource">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRegularExpressionMatchIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRegularExpressionMatch">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRegularExpression">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRegExp">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRectF">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QRect">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QReadWriteLock">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QReadLocker">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QQueue">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPropertyAnimation">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QProcessEnvironment">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QProcess">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPointF">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPoint">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPluginLoader">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPersistentModelIndex">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPauseAnimation">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QParallelAnimationGroup">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QPair">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QOperatingSystemVersion">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QObjectUserData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QObjectList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QObjectData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QObjectCleanupHandler">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QObject">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QNonConstOverload">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QNoDebug">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutexLocker">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutex">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableVectorIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableStringListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableSetIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableMapIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableLinkedListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableHashIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableFutureIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMutableByteArrayListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMultiMap">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMultiHash">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QModelIndexList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QModelIndex">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMimeType">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMimeDatabase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMimeData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaType">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaProperty">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaObject">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaMethod">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaEnum">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMetaClassInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMessageLogger">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMessageLogContext">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMessageAuthenticationCode">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMarginsF">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMargins">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMapNodeBase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMapNode">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMapIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMapDataBase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMapData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QMap">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLoggingCategory">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLockFile">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLocale">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QListSpecialMethods">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QListData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLinkedListNode">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLinkedListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLinkedListData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLinkedList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLineF">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLine">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLibraryInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLibrary">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLatin1String">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLatin1Literal">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QLatin1Char">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonValueRefPtr">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonValueRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonValuePtr">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonValue">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonParseError">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonObject">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonDocument">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QJsonArray">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QItemSelectionRange">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QItemSelectionModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QItemSelection">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QIODevice">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QInternal">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QIntegerForSize">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QIncompatibleFlag">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QIdentityProxyModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHistoryState">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHashNode">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHashIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHashFunctions">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHashDummyValue">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHashData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QHash">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QGlobalStatic">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QGenericReturnArgument">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QGenericArgument">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureWatcherBase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureWatcher">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureSynchronizer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureInterfaceBase">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFutureInterface">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFuture">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFunctionPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFloat16">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFlags">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFlag">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFinalState">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFileSystemWatcher">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFileSelector">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFileInfoList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFileInfo">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFileDevice">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFile">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QFactoryInterface">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QExplicitlySharedDataPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QException">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEventTransition">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEventLoopLocker">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEventLoop">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEvent">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEnableSharedFromThis">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QElapsedTimer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QEasingCurve">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDynamicPropertyChangeEvent">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDirIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDir">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDeferredDeleteEvent">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDebugStateSaver">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDebug">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDeadlineTimer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDateTime">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDate">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QDataStream">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCryptographicHash">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCoreApplication">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QContiguousCacheTypedData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QContiguousCacheData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QContiguousCache">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QConstOverload">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCommandLineParser">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCommandLineOption">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCollatorSortKey">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCollator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QChildEvent">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCharRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QChar">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QCache">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArrayMatcher">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArrayListIterator">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArrayList">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArrayDataPtr">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArrayData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QByteArray">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QBuffer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QBitRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QBitArray">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QBasicTimer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QBasicMutex">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAtomicPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAtomicInteger">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAtomicInt">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAssociativeIterable">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QArrayDataPointerRef">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QArrayDataPointer">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QArrayData">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QArgument">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAnimationGroup">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAnimationDriver">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractTransition">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractTableModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractState">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractProxyModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractNativeEventFilter">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractListModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractItemModel">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractEventDispatcher">
+      <Filter>QtCore</Filter>
+    </None>
+    <None Include="QtCore\QAbstractAnimation">
+      <Filter>QtCore</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Kinect">
@@ -51,6 +3744,15 @@
     </Filter>
     <Filter Include="IMUmkv">
       <UniqueIdentifier>{4bd2b22f-a144-42b5-911d-90d878712234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QtWidgets">
+      <UniqueIdentifier>{3a68ff77-5eac-4485-a80e-286485245c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QtGui">
+      <UniqueIdentifier>{c658f97c-a454-41cf-be74-ff494cf191a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QtCore">
+      <UniqueIdentifier>{bcb59fd2-8c71-409a-8568-3114c6c56504}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
