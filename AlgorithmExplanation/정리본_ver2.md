@@ -20,6 +20,7 @@
 
 ### C에서 Python.h 사용
 ![Image](https://i.imgur.com/LkKamCS.png)
+
 프로젝트 속성에서
 
 VC++ 디렉토리에서
