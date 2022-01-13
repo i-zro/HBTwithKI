@@ -513,6 +513,19 @@ plt.show()
 ![Image](https://i.imgur.com/I4pgG6J.png)
 
 ### IMU
+![Image](https://i.imgur.com/Ylqw2cc.png)
+
+![relative](https://user-images.githubusercontent.com/48379869/149250661-323dad60-5278-4ed8-b738-1a9d8d123f96.gif)
+
+`정말... 알 수 없는 결과`
+
+![relative](https://user-images.githubusercontent.com/48379869/149257252-bbb86613-37b4-4e03-aec8-2e68dcdc9ac1.gif)
+
+`정말... 알 수 없는 결과2`
+
+# Python.h 사용
+https://velog.io/@dltpal07/visual-studio-c%EC%97%90%EC%84%9C-python-%ED%98%B8%EC%B6%9C%ED%95%98%EA%B8%B0
+
 
 
 # 참고
